@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{
+				padding:0;
+				padding: 0;
+			}
+			body{
+				background: url(images/背景2.jpg) no-repeat;
+				background-size: 100%;
+			}
+			#box{
+				margin: 100px auto;
+				border: 10px solid whitesmoke;
+				width:400px;
+				height: auto;
+				padding: 20px;
+				background: linear-gradient(-45deg,pink 30%,rgb(97,225,234));
+				box-shadow: 3px 3px 5px #666;
+			}
+			
+		</style>
+			<script type="text/javascript" language="JavaScript">
+			function fn(){
+				var ps=document.getElementById('ps').value;
+				var psok=document.getElementById('psok').value;
+					if(ps!=psok){
+						alert('两次密码不一至');
+					}
+			}
+			function fn2(){
+				var ps=document.getElementById('ps').value;
+				var psok=document.getElementById('psok').value;
+				if (ps==psok) {
+					window.open('index.html');
+				} else{
+					alert('两次密码不一致');
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div id="box">
+			<form action="index.html" method="post">
+				<p>请输入姓名：<input type="text" pattern="^[a-zA-Z\u4e00-\u9fa50-9]{3,9}$"/></p>
+				<p>您的性别：<input type="radio" name="ra"/>男
+				<input type="radio" name="ra"/>女</p>
+				<p>您的生日：<input type="date"/></p>
+				<p>您喜欢的颜色：<input type="color"/></p>
+				<p>您的电话：<input type="tel"/></p>
+				<p>您的地址：<input type="url" list="s2"/>
+				<datalist id="s">
+					<option>四川省</option>
+					<option>四川省</option>
+					<option>四川省</option>
+				</datalist>
+				<datalist id="s2">
+					<option>成都市</option>
+					<option>达州市</option>
+					<option>德阳市</option></p>
+				</datalist>
+				<p>请输入密码：<input type="password" id="ps" value=""/></p>
+				<p>确认密码：<input type="password" id="psok"  onblur="fn()"/></p>
+				<input type="submit" value="提交" id="bt" onclick="fn2()"/>
+				<input type="reset"/>
+			</form>
+	</div>
+	</body>
+</html>

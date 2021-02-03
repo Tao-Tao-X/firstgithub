@@ -1,0 +1,134 @@
+#mian{
+	width: 1500px;
+	height:800px;
+	margin-top:100px;
+	background: url(../images/标题.png) no-repeat;
+	background-size: 100% 20%;
+	position: absolute;
+	left: -100px;
+}
+#mian h1{
+	text-align: center;
+	line-height: 100px;
+	font-family: "微软雅黑";
+	color: pink;
+	text-shadow:0px 0px 20px white;
+}
+#mian ul{
+	width: 1300px;
+	height: auto;
+	margin: 50px auto;
+}
+#mian ul li{
+	height: 200px;
+	margin: 50px;
+	list-style-type: none;
+	background-color: #FFFFF0;
+	border-radius: 25px;
+}
+#mian ul li:hover{
+	background: #87CEFA;
+	margin:30px ;
+	box-shadow: 10px 10px 15px #666;
+}
+#mian ul li img{
+	width: 100px;
+	height: 150px;
+	margin-top:25px;
+	margin-left: 20px;
+	float: left;
+}
+#mian ul li .cm{
+	text-align: left;
+	margin-left:130px;
+	margin-top: 10px;
+}
+#mian ul li .xl{
+	color: #666;
+	margin: 15px 130px;
+}
+#mian ul li .dz{
+	font-weight: bolder;
+	width: 150px;
+	height:80px;
+	color:orange;
+	background: blueviolet;
+	border-radius: 12px;
+	margin: 10px;
+}
+#mian ul li .yj{
+	margin: 10px 10px;
+	color: #666;
+	text-decoration: line-through;
+}
+#mian ul li .jg{
+	margin: 10px 130px;
+}
+#mian ul li .zj{
+	font-size: 25px;
+	color: red;
+	font-weight: bolder;
+}
+#mian ul li button{
+	float: right;
+	width: 150px;
+	height: 30px;
+	margin:-20px 50px;
+	border:3px white;
+	border-radius:15px ;
+	box-shadow: 3px 3px 5px #666;
+	background: linear-gradient(-125deg,blueviolet,rgb(97,225,234));
+}
+#mian ul li button:hover{
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+}
+#mian ul li .lsl{
+	float: right;
+	white-space: pre;
+	margin: -50px 85px;
+}
+.tian{
+	background: pre;
+}
+#mian ul li .sl{
+	text-align: center;
+	float: right;
+	width: 20px;
+	height: 20px;
+	border-radius:10px;
+	border: 1px solid black;
+	margin-left: 20px;
+}
+#mian ul li .fd{
+	float: right;
+	margin-left: 20px;
+}
+#mian .jdt{
+	background: aliceblue;
+	margin-top: -100px;
+	margin-left: 400px;
+	width: 30px;
+	height: 20px;
+	border-radius: 15px;
+	border-left: 170px solid red/*greenyellow*/;
+}
+#sy{
+	float:left;
+	margin-top: -50px;
+	margin-left: 320px;
+}
+#pf{
+	font-weight: 900;
+	font-size: 20px;
+	line-height: 40px;
+	margin-top: 30px;
+	margin-left: 495px;
+	background: url(../images/星星.png) repeat-x;
+	background-size:40px ;
+	width: 200px;
+	height: 40px;
+}
+#pf p{
+	margin-left: -100px;
+}
